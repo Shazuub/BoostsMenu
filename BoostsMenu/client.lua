@@ -3,9 +3,11 @@ local Boosts = RageUI.CreateMenu("Boosts", "Menu Boosts")
 Boosts.Closed = function()
     open = false
 end
+
 local boosts = {
     IndexList = 1
 }
+
 local boostsinfo = "~r~Aucun"
 
 function OpenMenuBoosts()
